@@ -27,8 +27,8 @@ public class Util {
         Role roleUser = new Role("ROLE_USER");
         List<Role> adminSet = new ArrayList<>();
         List<Role> userSet = new ArrayList<>();
-//        roleService.newRole(roleAdmin);
-//        roleService.newRole(roleUser);
+        roleService.newRole(roleAdmin);
+        roleService.newRole(roleUser);
         adminSet.add(roleAdmin);
         adminSet.add(roleUser);
         userSet.add(roleUser);
